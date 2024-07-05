@@ -81,7 +81,7 @@ Following are the endpoints provided by this application -
 
 | EndPoint | Method | Description | Usage |
 | :---: | :---: | :---: | :---: |
-| /posts | GET | This endpoint provides all posts which can be filtered using userId or PostId | /posts OR /posts?userId=<x>&id=<y> |
-| /posts/{id} | GET | This endpoint returns a post for the given Id | /posts/<x> |
-| /posts/{id}/comments | GET | This method returns all comments associated with the given post | /posts/<x>/comments |
-| /comments | GET | This endpoint fetches all the comments, which can be filtered by postId | /comments OR /comments?postId=<x> |
+| /posts | GET | This endpoint provides all posts which can be filtered using userId or PostId | /posts OR /posts?userId=1&id=2 |
+| /posts/{id} | GET | This endpoint returns a post for the given Id | /posts/1 |
+| /posts/{id}/comments | GET | This method returns all comments associated with the given post | /posts/1/comments |
+| /comments | GET | This endpoint fetches all the comments, which can be filtered by postId | /comments OR /comments?postId=1 |
